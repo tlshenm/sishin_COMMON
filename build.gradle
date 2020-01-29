@@ -21,4 +21,6 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'androidx.appcompat:appcompat:1.1.0'
+    // Base64 인코딩 / 디코딩 관련 라이브러리
+    implementation 'commons-codec:commons-codec:1.10'
 }
